@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "seamless-gradient-glass",
+  "version": "${version}",
+  "name": "Seamless Gradient Glass",
+  "description": "Connected glass with smooth transitions between neighboring dye colors.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.ixce.gradientglass.GradientGlass"] },
+  "mixins": ["gradientglass.client.mixins.json"],
+  "custom": {
+    "sodium-extra:options": {
+      "mixin.optimizations.beacon_beam_rendering": false
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
+
+
