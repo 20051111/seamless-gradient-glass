@@ -4,6 +4,7 @@
   "version": "${version}",
   "name": "Seamless Gradient Glass",
   "description": "Connected glass with smooth transitions between neighboring dye colors.",
+  "icon": "assets/gradientglass/icon.png",
   "environment": "client",
   "entrypoints": { "client": ["com.ixce.gradientglass.GradientGlass"] },
   "mixins": ["gradientglass.client.mixins.json"],
