@@ -1,0 +1,14 @@
+.gradle/
+build/
+run/
+
+# Old JAR files and archives
+*.jar
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Keep Gradle Wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
